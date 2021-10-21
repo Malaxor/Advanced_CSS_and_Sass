@@ -21,16 +21,16 @@
       transition: all 0.2s ease-in;
    }
    &:hover {
-      transform: translateY(-0.3rem);
-      box-shadow: 0 10px 20px rgba($color-black, 0.2);
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
       &::after {
          transform: scale(1.4, 1.6);
          opacity: 0;
       }
    }
    &:active {
-      transform: translateY(-0.1rem);
-      box-shadow: 0 5px 10px rgba($color-black, 0.2);
+      transform: translateY(1px);
+      box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
    }
    &--white {
       background-color: $color-white;
@@ -42,5 +42,26 @@
    &--animated {
       animation: moveInFromDown 0.5s ease-out 0.75s;
       animation-fill-mode: backwards;
+   }
+}
+.btn-text {
+   &:link,
+   &:visited {
+      font-size: $default-font-size;
+      color: $color-primary;
+      display: inline-block;
+      border-bottom: 1px solid $color-primary;
+      padding: 3px;
+      transition: all 0.2s;
+   }
+   &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+      transform: translateY(-2px);
+   }
+   &:active {
+      box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+      transform: translateY(0);
    }
 }
