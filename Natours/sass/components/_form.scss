@@ -37,7 +37,7 @@
       display: block;
       transition: all 0.3s;
    }
-   &__input:placeholder-shown + &__label{
+   &__input:placeholder-shown + &__label {
       visibility: hidden;
       opacity: 0;
       transform: translateY(-3rem);
