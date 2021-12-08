@@ -118,7 +118,6 @@
   }
   &__details {
     padding: 3rem;
-
     ul {
       width: 80%;
       margin: 0 auto;
@@ -126,7 +125,6 @@
         text-align: center;
         font-size: 1.5rem;
         padding: 1rem;
-
         &:not(:last-child) {
           border-bottom: 1px solid $color-grey-light-2;
         }
@@ -161,7 +159,6 @@
     background-color: white;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
-    
     // FUNCTIONALITY
     &__side {
       height: auto;
