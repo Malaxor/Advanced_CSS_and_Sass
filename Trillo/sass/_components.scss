@@ -1,3 +1,4 @@
+// Header
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
@@ -44,7 +45,7 @@
       outline: none;
     }
     &:active {
-     transform: translateY(2px);
+      transform: translateY(2px);
     }
   }
 
@@ -58,7 +59,7 @@
 .user-nav {
   display: flex;
   align-self: stretch;
-  align-items: center;
+  // align-items: center;
   margin-right: 1rem;
 
   & > * {
@@ -69,7 +70,6 @@
     align-items: center;
   }
   & > *:hover {
-    padding: 0 2rem;
     background-color: var(--color-grey-light-2);
   }
 
@@ -99,6 +99,29 @@
 
   &__user-photo {
     height: 3.75rem;
+    margin-right: .5rem;
     border-radius: 50%;
   }
+}
+
+// Side Navigation
+.side-nav {
+  &__item {
+
+  }
+  &__link {
+    
+  }
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+// Legal Text
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-grey-dark-4);
 }
