@@ -5,6 +5,12 @@
   padding: 0;
   box-sizing: inherit;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 html {
   box-sizing: border-box;
   font-size: 62.5%;
