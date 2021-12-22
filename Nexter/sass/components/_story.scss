@@ -2,7 +2,8 @@
   &__pictures {
     background-color: $color-primary;
     background-image: linear-gradient(
-      rgba($color-primary, .5), rgba($color-primary, .5)), 
+      rgba($color-primary, .5), 
+      rgba($color-primary, .5)), 
       url(../img/back.jpg);
     grid-column: full-start / col-end 4;
     display: grid;
@@ -19,7 +20,7 @@
   &__img--2 {
     width: 115%;
     grid-area: 4 / 4 / 6 / 7;
-    z-index: 3;
+    z-index: 2;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   }
   &__content {
